@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMvc_01.Models;
-using SalesWebMvc_01.Models.ViewModels;
+using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SalesWebMvc_01.Controllers {
+namespace SalesWebMvc.Controllers {
     public class HomeController : Controller {
         public IActionResult Index() {
             return View();
